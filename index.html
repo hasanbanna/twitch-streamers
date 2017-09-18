@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Twitch Streamers</title>
 
+<head>
+    <meta charset="UTF-8">
+    <title>Twitch Streamers</title>
+	<link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
-	<script src="js/twitch-app.js"></script>
+    <div class="container">
+        <div class="title">Twitch Streamers</div>
+        <ul class="menu">
+            <li><a class="selected" href="#">All</a></li>
+            <li><a href="#">Online</a></li>
+            <li><a href="#">Offline</a></li>
+        </ul>
+        <div class="stream-display"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="js/twitch-app.js"></script>
 </body>
+
 </html>
